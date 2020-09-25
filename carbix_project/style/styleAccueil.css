@@ -1,0 +1,134 @@
+/* Author: Diallo Mamadou et Barry Mamadou*/
+body {
+    font-family : Helvetica ;
+    margin-left : 5mm;
+    margin-right: 5mm;
+    background-color:black;
+   }
+
+#nuit,#jour{
+  position: fixed;
+  left: 92.5%;
+  top:-0.5%;
+}
+body>.creationCompte{
+  position: fixed;
+  top:-0.5%;
+}
+.bloc{
+  display:inline-flex;
+  border: solid black 3px;
+  margin: 3px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  margin-left:5%;
+}
+.bestStations>p{
+  background-color: white;
+  margin-right: 3px;
+  margin-left: 3px;
+  border-radius:3px;
+  
+}
+.bloc .bestStations:last-of-type{
+  margin-right: 2px;
+  
+}
+.bestStations{
+  display: inline-block;
+  border: solid 1px blue;
+  padding:0px 1px 0px 1px;
+  margin: 2px 0px 2px 2px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: aliceblue;
+  
+}
+.bestStations strong,.prixCarb+.contenu strong{
+  text-decoration: underline red;
+  margin-right: 3px;
+}
+.marque{
+  text-decoration-line: underline overline;
+  color:blue;
+  font-size: 20px;
+  
+}
+.marque:hover{
+  color:red;
+}
+h1{
+  text-align: center;
+  background-color: aliceblue;
+  border: solid blue 2px;
+  border-radius: 5px;
+}
+nav>button{
+  border: solid 1px;
+  padding: 0.5% 2% 0.5% 2%;
+  border-radius: 5px;
+  margin: 2px;
+}
+nav{
+  text-align: center;
+  
+}
+button:hover{
+  background-color: lightblue;
+  color:black;
+  border: solid blue 1px;
+  border-radius: 5px;
+}
+header{
+  border: solid 2px blue;
+  margin: 0px 15px 0px 15px;
+  border-radius: 5px;
+}
+#accueil h3{
+  border: solid 2px blue;
+  margin: 3px 30px 3px 30px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: aliceblue;
+}
+p>strong,#poster{
+  color: lightseagreen;
+}
+#poster,#donneAvis{
+  padding: 2px;
+}
+button{
+  font-size: 20px;
+}
+fieldset {
+     border : 1px solid blue ;
+     border-radius: 5px;
+     margin : 10px ;
+   }
+input:valid{
+   box-shadow: 0 0 2px 1px green;
+}
+legend{
+  font-size: 30px;
+  margin-bottom: 1%;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: solid 1px red;
+  
+}
+#form_register,#form_login,#upload_image{
+  width: 40%;
+  margin-left: 10%;
+}
+#form_login+p{
+  margin-left: 12%;
+  color:white;
+  font-size: 20px;
+}
+a{
+  padding: 2px;
+  text-decoration: none;
+  color: green
+}

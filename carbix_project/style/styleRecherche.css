@@ -1,0 +1,142 @@
+/* Author: Diallo Mamadou et Barry Mamadou*/
+@charset "UTF-8";
+#formRecherche {
+  border: solid blue 1Px;
+	margin-left:15px;
+	width:470px;
+	float:left;
+	border-radius: 5px;
+}
+fieldset{
+		background-color: aliceblue;
+}
+#carbixCarte .buttonPopUp{
+  color:blue;
+  font-style: italic;
+}
+#carbixCarte p{
+	font-size: 17px;
+	color:green;
+	text-align:center;
+}
+#carbixCarte{
+	border: solid blue 1px;
+	border-radius: 5px;
+	float: left;
+	margin-left: 1%;
+}
+#infoStation{
+	background-color: aliceblue;
+	width: 30%;
+	height: 30%;
+	float: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: solid 1px blue;
+}
+
+.afficherServices,.afficherPrix{
+	border: solid 0.5px blue;
+	width: 20%;
+	
+}
+#donneAvis,#poster{
+	border: solid 0.5px blue;
+	width: 20%;
+}
+.prixCarb,#services{
+	padding-left: 5px;
+}
+strong.prixCarb>a{
+	color:black;
+}
+.contenu{
+	padding-left:20px;
+	padding-right: 10px;
+}
+.contenu>p,#services>p{
+	padding-left: 5px;
+}
+#infoStation p,#donneAvis,#poster,.pseudoPost{
+	background-color: white;
+	border-radius:3px;
+}
+#notePostStation{
+	width: 130mm;
+	margin-left: 1%; 
+}
+
+#vosAvis>p>span{
+	border: solid 1px green;
+	background-color: black;
+	border-radius:50px;
+	margin-right: 1%;
+}
+#noteAccueil>span:first-of-type{
+	margin-left: 6px;
+}
+#notePrix>span:first-of-type{
+	margin-left: 35px;
+}
+#vosPosts{
+	margin-right: 20mm;
+	float: right;
+}
+#vosPosts scroll-container img,#vosPosts scroll-container img+strong{
+  float: right;
+}
+#vosPosts scroll-container{
+  height: 260px;
+  width: 140mm;
+  margin-top: 1%;
+}
+#vosPosts .avatarPost{
+	width: 50px;
+}
+#notePostStation>#formNoteEtPost{
+	width: 48%;
+}
+.notes{
+	color: blue;
+	font-size: 18px;
+}
+#formNoteEtPost button{
+  margin-top: 1px;
+	border-color: blue;
+	border-radius: 5px;
+}
+input[type=number]{
+	-moz-appearance: textfield;
+}
+#donneAvis:hover,#poster:hover,.afficherServices:hover,.pseudoPost:hover,.afficherPrix:hover,.afficherServices:hover,.avatarPost:hover,strong.prixCarb>a:hover{
+	color:green;
+	border-color: red;
+	box-shadow: 0 0 2px 1px green;
+  	border-radius: 3px;
+}
+.pseudoPost{
+	text-decoration: underline;
+	text-decoration-color: blue;
+}
+.avatarPost{
+	height: 48px;
+	width: 48px;
+	box-shadow: 0px 0px 1px 1px blue;
+	margin-left: 4px;
+	border-radius: 3px;
+	margin-right: 4px;
+}
+#vosAvis>h4,#vosPosts>h4{
+	color: blue;
+	font-size: 20px;
+}
+#vosAvis>h4>strong,#vosPosts>h4>strong:first-of-type{
+	color: red;
+	font-size: 25px;
+}
+#infoStation .prixCarb:hover{
+	color: green;
+}
+#infoStation em{
+	color: red;
+}

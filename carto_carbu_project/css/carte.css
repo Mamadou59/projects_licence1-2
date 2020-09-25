@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Author: Diallo Mamadou et Barry Mamadou*/
+#carte {
+        width : 750px;
+        height : 650px;
+    }
+@media (max-width: 750px) {
+  #carte{
+    width : 550px;
+    height : 350px;
+  }

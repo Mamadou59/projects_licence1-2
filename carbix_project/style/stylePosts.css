@@ -1,0 +1,51 @@
+/* Author: Diallo Mamadou et Barry Mamadou*/
+@charset "UTF-8";
+#mesPosts img,#vosPosts .nolike img,#vosPosts .like img{
+  width: 20px;
+}
+#mesPosts time:before, #vosPosts time:before{
+  content: "Publier le:";
+  color: blue;
+  text-decoration: underline black;
+}
+#mesPosts p:first-of-type, #vosPosts p:first-of-type{
+  font-size: 5mm;
+}
+#mesPosts p,#vosPosts p{
+  padding-left: 3px;
+  margin-left: 3px;
+  background-color: white;
+}
+#mesPosts p:last-of-type,#vosPosts p:last-of-type{
+  padding-bottom: 1%;
+}
+#mesPosts scroll-page>span:first-of-type,#vosPosts scroll-page>span:first-of-type{
+  font-size: 30px;
+  border: solid blue;
+  border-radius: 5px;
+  background-color: white;
+}
+#mesPosts button{
+  float: right;
+  font-size: 15px;
+  color: red;
+}
+.like,.nolike,.likenolike{
+  float: right;
+  margin: 5px;
+}
+#blocPost scroll-container,#vosPosts>scroll-container{
+  display: inline-block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: aliceblue;
+  border: solid 1px blue;
+  border-radius: 5px;
+  padding-top:10px;
+}
+#blocPost scroll-container {
+  height: 300px;
+  width: 60%;
+  margin-left:25%;
+  margin-top: 5%;
+}

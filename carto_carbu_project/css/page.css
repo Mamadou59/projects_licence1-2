@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* Author: Diallo Mamadou et Barry Mamadou*/
+body{
+	background-color:lightblue;
+}
+header{
+	background-image: url(https://www.h24info.ma/wp-content/uploads/2018/05/articlesprincipalesstation-afriquia.jpg);
+	background-size: cover;
+	padding: 7%;
+	margin-bottom: 5px;
+	background-position-y: 80%, center;
+	border: solid 3px blue; 
+	border-radius: 10px;
+	box-shadow:0px 0px 4px 2px rgba(300,120,10,0.6);
+}
+body>section>div{
+	display: inline-block;
+	border:solid 3px aquamarine;
+	border-radius: 10px;
+	margin-top:3px;  
+	box-shadow:0px 0px 4px 2px rgba(300,120,10,0.6);
+}
+
+h1{
+	background-color: lightgreen;
+	text-align: center;
+	border: solid 3px blue;
+	border-radius: 10px;
+	font-size: 40px;
+	margin: 0px 20% 0px 20%
+}
+h3,h5{
+	border: solid 3px blue;
+	border-radius: 10px;
+	margin: 3px 3px 0px 3px;
+	background-color: lightgreen;
+}
+h1:hover{
+  transform : scale(1.05);transition: border-color 2s, background-color 2s; background-color:grey; border-color: black; 
+  box-shadow:0px 0px 4px 2px rgba(300,120,10,0.6);
+	color :aliceblue;
+}
+#infoAllStation,#info>h6,#info>h6+section>h5{
+	display: none;
+}
+#info{
+	border: solid 2px aquamarine;
+	border-radius: 10px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin: 3px 0px 5px 1px;
+  font-family: sans-serif;
+	background-color:lavender;
+	font-size: 12px;
+	position: absolute;
+	
+}
+.prix,.services{
+	display: inline-block;
+	border: inset 2px;
+	border-radius: 10px;
+	margin: 1px;
+	text-align: center;
+	padding: 1px;
+	background-color: lightcyan;
+}
+.infoStation .prix>div{
+	border: outset 1px;
+	border-radius: 10px;
+	margin: 2px;
+	background-color: lightgreen;
+}
+.prix span,.services span{
+	border:outset 2px;
+	border-radius: 2px;
+	color:brown;
+	border-radius: 5px;
+	padding: 2px;
+}
+.prix>div>p>span{
+	color:red;
+}
+.prix span:hover{
+	font-size: 14px;
+}
+.otherInfo{
+	border: inset 2px;
+	border-radius: 10px;
+	margin: 1px 1px 1px 0px;
+	text-align: center;
+	padding: 0px;
+	background-color: lightcyan;
+}
+#formulaire>h2{
+	background-color: lightgreen;
+	border: solid 3px blue;
+	border-radius: 10px;
+	margin-right: 3px;
+	text-align: center;
+}
+input~fieldset{
+	background-color: lightgreen;
+	margin: 2px;
+}
+#formulaire>form>input{
+	border: solid 2px aqua;
+	margin: 2px;
+	padding: 2px;
+}
+#formulaire{
+	font-family: sans-serif;
+	float: right;
+	width: 400px;
+	padding-left: 5px;
+	background-color: lightcyan;
+	padding-bottom: 5px;
+}
+#formulaire h2:hover{
+	color :aliceblue;
+}
+#formulaire h2:hover,.prix div:hover,.services:hover,section>section:first-of-type:hover{
+transform : scale(1.05);transition: border-color 2s, background-color 2s; background-color:burlywood; border-color: black;
+	box-shadow:0px 0px 4px 2px rgba(300,120,10,0.6);
+	
+}
+
+#notFound,#error{
+	background-color: tomato;
+	position: absolute;
+	right: 450px;
+	top:30pc;
+	padding: 3px;
+	text-align: center;
+	border: solid 2px;
+	border-radius: 2pc;
+}
+header+section{
+	border: solid azure;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+body::after{content: "Réalisé par: DIALLO MAMADOU ET BARRY MAMADOU"; 
+	background-color:blueviolet;
+	color:white; font-size: 18px; 
+	margin-left:10px;
+  border:solid 2px;
+	border-radius:2pc;
+	padding:0px 3px 1px 3px;
+	
+}
+p:hover,button:hover,input:hover,label:hover{
+	color : blue;
+}
+b{
+	color:gray;
+}
+form button:first-of-type:hover{
+	color:red;
+}
+input[type=number]{
+	-moz-appearance: textfield;
+}
+#acceuil{
+	background-color: lightgreen;
+	font-size: 16px;
+	margin-left:10mm;
+	margin-bottom:3px;
+	padding: 0px 3px 0px 3px;
+}
+@media (max-width: 750px) {
+	#formulaire{
+	   float:left;
+	}
+}
+@media (max-width: 900px){
+	#info{
+		position: relative;
+	}
+}
